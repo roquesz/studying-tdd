@@ -1,0 +1,19 @@
+{
+    "name": "roquejunior/query-builder",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roque Junior",
+            "email": "roquejunior@roquejunior.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "RoqueJunior\\QueryBuilder\\": "src"
+        }
+    }
+}
